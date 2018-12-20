@@ -5,4 +5,12 @@ function theBeatlesPlay(musicians,instruments){
 }return arr;
 }
 
+function johnLennonFacts(facts){
+  var finalArr =[];
+  count = 0;
+  while(count < facts.length){
+    finalArr.push(facts[count] + "!!!")
+    count++;
+  }return finalArr;
+}
 // add solution here
